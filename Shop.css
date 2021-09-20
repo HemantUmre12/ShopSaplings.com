@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: glory;
+}
+html{
+    background: url(bk.png) no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    font: normal normal bold 60px/1.2 cursive;
+    text-shadow: 3px 3px 3px rgb(230, 19, 19);
+    color:rgba(68, 17, 17, 0.76);
+}
+.nav{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(187, 44, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav a{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+.nav a:hover{
+    background-color: rgb(255, 157, 0);
+    color: black;
+    font-weight: bolder;
+}
+
+.container{
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container div{
+    margin: 20px;
+    width: 400px;
+    background-color: rgba(197, 48, 28, 0.493);
+    padding: 15px;
+    text-align: justify;
+    font-size: larger;
+    color: rgb(233, 220, 220);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+.container div div{
+    margin: auto;
+    font: normal normal bolder 35px/1.2 glory;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(236, 229, 229);
+    color:rgb(199, 28, 28);
+}
+.container div img{
+    cursor: pointer;
+    border: 7px solid rgba(170, 167, 161, 0.719);
+}
+.container div img:hover{
+    border: 10px solid rgb(223, 223, 108);
+}
+img{
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+.container div p{
+    margin: 15px;
+}
